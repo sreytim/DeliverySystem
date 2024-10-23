@@ -12,6 +12,7 @@ void gotoy(){
 void Loading() {
     gotoy();
     cout << "\t\t\t\t\tWelcome.....!!" << endl;
+    
     cout << "\t\t\t\t\t";
     for (int i = 0; i < 8; i++) {
         this_thread::sleep_for(chrono::seconds(1));
